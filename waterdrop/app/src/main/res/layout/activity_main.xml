@@ -1,0 +1,102 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="ExtraText">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Water Drop"
+            android:textSize="30sp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"/>
+
+        <!-- Logo or app name -->
+        <ImageView
+            android:id="@+id/logoImageView"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:src="@drawable/logo"
+            android:layout_below="@id/titleTextView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="64dp"
+            android:contentDescription="The all in one Water delivery app" />
+
+        <!-- Username EditText -->
+
+        <Switch
+            android:id="@+id/userTypeSwitch"
+            android:layout_width="125dp"
+            android:layout_height="61dp"
+            android:layout_below="@id/logoImageView"
+
+            android:layout_centerHorizontal="true"
+
+            android:checked="true"
+            android:text="Customer" />
+
+        <EditText
+            android:id="@+id/usernameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/userTypeSwitch"
+            android:layout_marginTop="32dp"
+            android:layout_marginHorizontal="32dp"
+            android:hint="username or email id"
+            android:inputType="textEmailAddress" />
+
+        <!-- Password EditText -->
+        <EditText
+            android:id="@+id/passwordEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/usernameEditText"
+            android:layout_marginTop="16dp"
+            android:layout_marginHorizontal="32dp"
+            android:hint="password"
+            android:inputType="textPassword" />
+
+        <!-- Login Button -->
+        <Button
+            android:id="@+id/loginButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/passwordEditText"
+            android:layout_marginTop="24dp"
+            android:layout_marginHorizontal="32dp"
+            android:text="Log in" />
+
+        <!-- Forgot Password TextView -->
+        <TextView
+            android:id="@+id/forgotPasswordTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/loginButton"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="32dp"
+            android:layout_alignParentEnd="true"
+            android:text="Forgot Password"
+            android:textColor="@android:color/darker_gray" />
+
+        <!-- Signup TextView -->
+        <TextView
+            android:id="@+id/signupTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/loginButton"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="32dp"
+            android:text="Create Account"
+            android:textColor="@android:color/darker_gray" />
+
+    </RelativeLayout>
+</ScrollView>

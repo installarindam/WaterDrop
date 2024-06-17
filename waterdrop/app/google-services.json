@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1075244276581",
+    "project_id": "waterdrop-74daf",
+    "storage_bucket": "waterdrop-74daf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1075244276581:android:8ba73deadd83efc3bd9f8c",
+        "android_client_info": {
+          "package_name": "com.arindam.waterdrop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1075244276581-m2131e4d56m6vkrb4geg2288cautm88j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFw30pf1zA-h0VIjMEyTdErhka7FMSOfE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1075244276581-m2131e4d56m6vkrb4geg2288cautm88j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

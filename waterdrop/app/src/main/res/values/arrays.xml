@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="order_status_array">
+        <item>Order Placed</item>
+        <item>Order Confirmed</item>
+        <item>Order Dispatched</item>
+        <item>Order Cancelled</item>
+        <item>Order Delivered</item>
+    </string-array>
+    <string-array name="product_array" >
+    <item>20 litter water jar</item>
+    <item>1 litter watter bottle</item>
+        <item>2 litter watter bottle</item>
+        <item>500 ml  watter bottle</item>
+
+
+
+    </string-array>
+    <string-array name="quantity_array">
+        <item>1X</item>
+        <item>2X</item>
+        <item>3X</item>
+        <item>4X</item>
+        <item>5X</item>
+        <item>6X</item>
+        <item>7X</item>
+        <item>8X</item>
+        <item>9X</item>
+        <item>10X</item>
+
+
+
+    </string-array>
+
+<string-array name="sort_options">
+    <item>All</item>
+    <item>This Month</item>
+    <item>Today</item>
+    <item>Order Placed</item>
+    <item>Order Delivered </item>
+    <item>Order Confirmed</item>
+    <item>Order Dispatched</item>
+    <item>Order Cancelled</item>
+
+
+    <!-- Add more sorting options as needed -->
+</string-array>
+
+</resources>
